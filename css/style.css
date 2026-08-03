@@ -1,0 +1,37 @@
+body {
+  background-color: gainsboro;
+  /* Use a system font, if none are available use an available sans-sarif */
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rebeccapurple;
+  color:white;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 325px;
+ color: aliceblue;
+}
+
+.sqr {
+  width: 30%;
+  aspect-ratio: 1/1;
+  border: 3px solid black;
+  font-size: 64px;
+  text-align: center;
+}
+
+#resetBtnEl{
+  padding: 12p 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn-container{
+  margin-top: 20px;
+}
