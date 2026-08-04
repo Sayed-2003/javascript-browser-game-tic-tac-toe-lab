@@ -45,7 +45,7 @@ function handlePlay(event) {
     checkTie();
 
     if (tie === true) {
-        messageEl.textContent = 'Players Tie';
+        messageEl.textContent = 'Its a Tie';
         return;
     }
 
